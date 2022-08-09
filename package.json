@@ -11,7 +11,7 @@
     "dev:ssr": "ng run portfolio_test_gh:serve-ssr",
     "serve:ssr": "node dist/portfolio_test_gh/server/main.js",
     "build:ssr": "ng build && ng run portfolio_test_gh:server",
-    "prerender": "ng run portfolio_test_gh:prerender --browserTarget docs"
+    "prerender": "ng run portfolio_test_gh:prerender"
   },
   "private": true,
   "dependencies": {
