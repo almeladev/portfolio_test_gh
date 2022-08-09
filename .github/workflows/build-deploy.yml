@@ -22,7 +22,7 @@ jobs:
     - name: Build
       run: |
         yarn install
-        yarn deploy
+        yarn prerender
     - name: Deploy
       uses: JamesIves/github-pages-deploy-action@v4
       with:
