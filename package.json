@@ -7,7 +7,7 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "deploy": "ng build --base-href=/angular-ci-cd/"
+    "deploy": "ng build --output-path docs --base-href /portfolio_test_gh/"
   },
   "private": true,
   "dependencies": {
